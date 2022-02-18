@@ -1,4 +1,5 @@
 {
+  "homepage": "https://yogesh-kumar-27.github.io/Frontend-Mentor-Bookmark-landing-page",
   "name": "bookmark-landing-page-master",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
